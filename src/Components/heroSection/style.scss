@@ -1,0 +1,21 @@
+.app-hero-carousel {
+  width: 100%;
+}
+
+.hero-carousel {
+  .carousel_img {
+    width: 100%;
+    max-height: 800px;
+    overflow: hidden;
+    text-align: center;
+
+    img {
+      max-height: 800px;
+      text-align: center;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+}
+

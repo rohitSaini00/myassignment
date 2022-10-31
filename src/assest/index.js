@@ -1,0 +1,1 @@
+import {export as images} from "./images";

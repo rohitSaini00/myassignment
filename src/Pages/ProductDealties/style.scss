@@ -1,0 +1,48 @@
+.category-img{
+    background: url("../../assest/images/c-home.jpg");
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+  .img-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h2{
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+  }
+}
+.product-data{
+  h5{
+   font-size: 32px;
+   span{
+    color: #e65540;
+    font-weight: bold;
+   }
+  }
+  p{
+    line-height: 1.2;
+  }
+ 
+}
+.cart-btn{
+button{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  border: none;
+  margin-top: 15px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #e65540;
+  font-weight: bold;
+  font-size: 22px;
+}
+}

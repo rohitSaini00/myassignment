@@ -1,0 +1,48 @@
+@import "../../style/Varibale/Color";
+
+.app-footer {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+.col-data img{
+  padding-bottom: 20px;
+}
+.col-data {
+  h3{
+  padding-bottom: 28px;
+
+}
+h3::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #e65540;
+  margin-top: 10px;
+}
+}
+.quick_links{
+  li{
+    padding-bottom: 15px;
+    a{
+      color: black;
+      transition: 0.3s;
+    }
+  }
+  li a:hover{
+color: #e65540;
+transition: 0.3s;
+  }
+}
+.contact-d p{
+padding: 5px 0px;
+}
+p{
+  margin: 0 !important;
+}
+ul{
+  padding: 0px !important;
+}
+h3{
+  text-align: left !important;
+}

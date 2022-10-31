@@ -1,0 +1,44 @@
+.contact-img{
+    background: url("../../assest/images/contact.jpg");
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+  .contact-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h2{
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+  }
+}
+.contact-form{
+  padding: 0px 40px;
+  button{
+    border-radius: 23px;
+    background-color: #222222;
+    border: none;
+    color: white;
+    width: 40%;
+    height: 50px;
+    font-size: 22px;
+    margin: 15px 0px;
+    transition: 0.3s;
+  }
+  button:hover{
+    background-color: #e65540;
+    transition: 0.3s;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact-form button{
+    font-size: 20px;
+  }
+}

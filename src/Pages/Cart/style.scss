@@ -1,0 +1,55 @@
+.cart2-img{
+    background: url("../../assest/images/cart.jpg");
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+    .cart2-img-data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    h2{
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+  }
+}
+th{
+    color: #555555;
+    font-size: 20px;
+}
+.int-dec{
+    display: flex;
+   button{
+    width: 42px;
+    height: 41px;
+    background-color: #e6e6e6;
+   color:  #888888;
+   border: none;
+   font-weight: bold;
+   font-size: 30px;
+   }
+}
+.cart_btn{
+    display: flex;
+    justify-content: space-between;
+    .apply-btn{
+        input{
+        padding: 10px;
+        }
+        button{
+            background-color: #222222;
+            border: none;
+            color: white;
+            font-weight: 500;
+            padding: 10px 20px;
+            font-size: 18px;
+
+         }
+    }
+}
